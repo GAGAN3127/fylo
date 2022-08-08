@@ -7,7 +7,7 @@
 body {
 	color: hsl(243, 87%, 12%);
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.1em;
+	font-size: 17px;
 	margin: 0;
 }
 
@@ -23,10 +23,11 @@ h1,
 h2,
 h4 {
 	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
 }
 
 h2 {
-	font-size: 1.8em;
+	font-size: 25px;
 	margin-top: 0;
 }
 
@@ -74,7 +75,7 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin: 30px 0;
+	margin: 40px 0;
 }
 
 nav ul {
@@ -202,7 +203,8 @@ button {
 /* Footer styling */
 footer img{
 	filter: brightness(0) invert(1);
-}footer {
+}
+footer {
 	background-color: hsl(243, 87%, 12%);
 	color: #fff;
 	padding: 50px 0;
@@ -237,6 +239,24 @@ footer .circle {
 
 footer p {
 	text-align: right;
+}
+div.flex.align-start{
+	justify-content: space-between;
+	flex-grow: 1;
+
+}
+.item1{
+	flex-grow: 3;
+	padding-inline-start: 0px;
+}
+.item2{
+	flex-grow: 1;
+}
+.item3{
+	flex-grow: 1;
+}
+.social-media{
+	flex-grow: 1;
 }
 
 @media screen and (max-width: 600px) {
@@ -337,12 +357,36 @@ footer p {
 		padding: 0;
 		width: 100%;
 	}
-	.flex3{
+	/* .flex3{
 		display: flex;
 		flex-direction: column;
 		flex-direction: column-reverse;
-	}
+	} */
 	h2 {
-		font-size: 20pxS;
+		font-size: 20px;
 	}
+	div.flex.align-start{
+	flex-direction: column;
+	text-align: left;
+	}
+	h4{
+		font-size: 20px;
+		text-align: left;
+
+	}
+	.testimonial-box{
+		text-align: left;
+	}
+	/* small{
+		font-size: ;
+	} */
+	/* .item2{
+		text-align: left;
+
+	}
+	.item3{
+		text-align: left;
+
+	} */
+
 }
