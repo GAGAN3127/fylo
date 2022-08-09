@@ -7,7 +7,7 @@
 body {
 	color: hsl(243, 87%, 12%);
 	font-family: 'Open Sans', sans-serif;
-	font-size: 17px;
+	font-size: 1.2em;
 	margin: 0;
 }
 
@@ -23,11 +23,11 @@ h1,
 h2,
 h4 {
 	font-family: 'Raleway', sans-serif;
-	font-size: 25px;
+	font-size: 2.5em;
 }
 
-h2 {
-	font-size: 25px;
+h5{
+	font-size: 1.7em;
 	margin-top: 0;
 }
 
@@ -35,7 +35,7 @@ h2 {
 	padding: 30px;
 	margin: 0 auto;
 	max-width: 100%;
-	width: 1200px;
+	/* width: 1200px;  */
 }
 
 .flex {
@@ -176,13 +176,48 @@ button {
 .user-info h4 {
 	font-weight: 700;
 	margin: 0;
+	font-size: 2.5em;
 }
 
 /* Blueish */
+div.container{
+	margin-right: 0%;
+	margin-left: 0%;
+
+}
+div.flex1{
+	justify-content: space-between;
+}
 .blueish {
 	background-color: hsl(238, 22%, 44%);
 	color: #fff;
-	padding: 50px 0;
+	/* padding: 50px -30px; */
+	justify-content: space-between;
+
+
+	
+}
+.left{
+	align-items: flex-start;
+	width: 55%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+    font-size: 1.1em;
+	padding-right: 300px;
+	padding-left: 30px;
+    text-align: left;
+    word-wrap: normal;
+    width: 30em;
+
+}
+
+.right{
+	align-items: flex-end;
+	width: 44%;
+	max-width: 30em;
+	padding-left: 100px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .blueish form {
@@ -241,6 +276,7 @@ footer p {
 	text-align: right;
 }
 div.flex.align-start{
+	padding-top: 1%;
 	justify-content: space-between;
 	flex-grow: 1;
 
@@ -259,7 +295,7 @@ div.flex.align-start{
 	flex-grow: 1;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 375px) {
 	body {
 		text-align: center;
 	}
