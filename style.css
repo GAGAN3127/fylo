@@ -20,18 +20,25 @@ img {
 }
 
 h1,
-h2,
-h4 {
+h2,h4 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 2.5em;
 }
+/* h4{
+	font-family: 'Raleway', sans-serif;
+	font-size: 10px;
+} */
 
 h5{
 	font-size: 1.7em;
 	margin-top: 0;
 }
+p{
+	padding-right: 30px;
+}
 
 .container {
+	
 	padding: 30px;
 	margin: 0 auto;
 	max-width: 100%;
@@ -43,6 +50,7 @@ h5{
 	align-items: center;
 	flex-wrap: wrap;
 	padding-right: 100px;
+	padding-left: 30px;
 }
 .flex1 {
 	display: flex;
@@ -77,6 +85,8 @@ nav {
 	align-items: center;
 	justify-content: space-between;
 	margin: 40px 0;
+	padding-left: 30px;
+	padding-right: 50px;
 }
 
 nav ul {
@@ -98,6 +108,7 @@ nav ul a {
 /* Form Section */
 form {
 	display: flex;
+	padding-right: 100px;
 }
 .img{
 	padding-left: 250px;
@@ -148,15 +159,20 @@ button {
 	height: 60px;
 	width: 100%;
 }
+.padding{
+	padding-right: 180px;
+}
 
 /* Testimonial */
+
 .testimonial-box {
 	background-color: #fff;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	border-radius: 5px;
 	padding: 25px;
 	margin-top: 40px;
-	width: 80%;
+	width: 50%;
+	
 }
 
 .testimonial-box p {
@@ -180,7 +196,7 @@ button {
 .user-info h4 {
 	font-weight: 700;
 	margin: 0;
-	font-size: 2.5em;
+	font-size: 1em;
 }
 
 /* Blueish */
@@ -240,8 +256,13 @@ div.flex1{
 }
 
 /* Footer styling */
+.extra{
+	padding-left: 30px;
+}
+
 footer img{
 	filter: brightness(0) invert(1);
+	
 }
 footer {
 	background-color: hsl(243, 87%, 12%);
